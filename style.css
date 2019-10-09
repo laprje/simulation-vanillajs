@@ -1,22 +1,100 @@
 body {
     font-family: 'Righteous', cursive;
     margin: 0px;
+    
 }
 
 header {
+    box-sizing: border-box;
     padding-left: 20px;
-    padding-top: 20px;
+    
     background-color: #424249;
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
+    justify-content: space-around;
     font-size: 30px;
 }
 
-h2 {
-padding-bottom: 20px;
-padding-left: 10px;
+.leftBox {
+    display: flex;
+    margin-right: 100px;
+}
+
+h1 {
+
+padding-left: 10px; 
 color: white;
 font-weight: 100;
 word-spacing: 5px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: #424249;
+    padding-left: 12.5px;
+}
+
+main {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.expensesBox {
+    display: flex;
+    background-color: #EFE8E1;
+    height: fit-content;
+    width: auto;
+    border-radius: 5px;
+    
+}
+
+.addBox {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #54D2E5;
+    height:fit-content;
+    width: 250px;
+    border-radius: 5px;
+    
+}
+
+.addButton {
+    box-sizing: border-box;
+    width: 90%;
+    height: 35px;
+    margin-left: 12.5px;
+    margin-bottom: 12.5px;
+    border: none;
+    background-color: #424249;
+    color: white;
+    font-family: 'Righteous', cursive;
+    border-radius: 5px;
+}
+form {
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #424249;
+    font-weight: 600;
+    padding-left: 6.25px;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.nameInput {
+    margin-left: 20px;
 }
